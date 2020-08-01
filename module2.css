@@ -1,0 +1,56 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+	font-family: sans-serif; }
+
+p {
+  margin: 10px;
+  font-size: 20px;
+  float: right;
+}
+
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+h3{
+	text-align: right;
+	float: right;
+	font-size: 30px;
+	font-style: italic;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid black;
+}
+
+#first > h3{
+	background-color: #DB9292;
+}
+
+#second > h3{
+	background-color: #C3492F;
+}
+
+#third > h3{
+	background-color: #D7CA5D;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+.row > div{
+	background-color: gray;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	border: 2px solid black;
+}
